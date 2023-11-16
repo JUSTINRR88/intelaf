@@ -1,0 +1,109 @@
+.panel_de_control{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1192px;
+    margin: auto;
+    height: 64px;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+
+.panel_de_control img{
+    height: 45px;
+}
+
+.navegador1{
+    width: 120px;
+    background-color: #f7f7f7;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegador1 img{
+    width: 24px;
+    height: 24px;
+}
+
+
+
+/* Buscador */
+
+
+.buscador{
+    background-color:#f7f7f7;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+    border-radius: 15px;
+
+}
+
+.buscador > div{
+    background-color:#f7f7f7;
+    width: 372px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buscador > div div{
+    width: 27px;
+    height: 27px;
+    background-color: rgb(240, 118, 29);
+    border-radius: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.buscador > div div span{
+    font-size: 18px;
+}
+
+.buscador input{
+    width: 100%;
+    border-style: none;
+    background-color:#f7f7f7;
+    outline: none;
+}
+/* Iconos */
+.panel_iconos{
+    width: 307px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.icono1 > span, .icono2 > span, .icono3 > span{
+    border-radius: 100%;
+    color: #f0761d;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 34px;
+}
+   
+
+.icono1, .icono2{
+    display: flex;
+    align-items: center;
+}
+
+.textos, .textos2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
